@@ -9,7 +9,7 @@ int main()
 
 
     printf("is your fruit available\napple\nmango\norange\ngrapes\npear\nkiwi\nberry\n");
-    printf("enter 1 for YES and 2 for NO\n");
+    printf("enter 1 for YES and 0 for NO\n");
     scanf("%d", &c);
 
     if (c == 1)
@@ -17,7 +17,7 @@ int main()
         a = 1;
     }
     printf("is your fruit available\nbanana\ndates\nmango\npear\norange\nkiwi\ngrapes\n");
-    printf("enter 1 for YES and 2 for NO\n");
+    printf("enter 1 for YES and 0 for NO\n");
     scanf("%d", &c);
     if (c == 1)
     {
@@ -25,21 +25,21 @@ int main()
     }
     printf("is your fruit available\ncherry\nbanana\nkiwi\norange\npear\ngrapes\nberry\n");
 
-    printf("enter 1 for YES and 2 for NO\n");
+    printf("enter 1 for YES and 0 for NO\n");
     scanf("%d", &c);
     if (c == 1)
     {
         a = a + 1;
     }
     printf("is your fruit available\nmelon\nbanana\ndates\nberry\npear\norange\ngrapes\nplum\n");
-    printf("enter 1 for YES and 2 for NO\n");
+    printf("enter 1 for YES and 0 for NO\n");
     scanf("%d", &c);
     if (c == 1)
     {
         a = a + 1;
     }
     printf("is your fruit available\npear\ndates\nmelon\norange\ncherry\nberry\nplum\n");
-    printf("enter 1 for YES and 2 for NO\n");
+    printf("enter 1 for YES and 0 for NO\n");
     scanf("%d", &c);
     if (c == 1)
     {
